@@ -1,0 +1,183 @@
+/* fonts */
+@font-face {
+  font-family: "Raleway-regular";
+  src: url(fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Raleway-medium";
+  src: url(fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: "Raleway-bold";
+  src: url(fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Raleway-semibold";
+  src: url(fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Raleway-black";
+  src: url(fonts/Raleway-Black.ttf);
+}
+@font-face {
+  font-family: "Raleway-extrabold";
+  src: url(fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-regular";
+  src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-medium";
+  src: url(fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url(fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins-semibold";
+  src: url(fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-black";
+  src: url(fonts/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: "Poppins-extrabold";
+  src: url(fonts/Poppins-ExtraBold.ttf);
+}
+
+/* colors */
+
+:root {
+  --primary: #eebf00;
+  --secondary: #232b38;
+  --tarnary: #6c6c6c;
+  --danger: #fe4545;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+  --footer: #2d333f;
+  --gray: #c9c9c9;
+  --red: #ff61241f;
+  --black: rgb(0, 0, 0);
+  --pure-gray: #777;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.logo a img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  background-color: var(--pure);
+}
+.form-box {
+  width: 340px;
+  height: 530px;
+  position: relative;
+  margin: 6% auto;
+  background: var(--pure);
+  padding: 5px;
+  overflow: hidden;
+  border: solid 1px var(--gray);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+H2 {
+  text-align: center;
+  padding: 20px 30px;
+}
+.social-icons {
+  margin: 25px auto;
+  text-align: center;
+}
+.social-icons img {
+  width: 23px;
+  margin: 0 12px;
+  cursor: pointer;
+}
+.input-group {
+  top: 150px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+.inpute-field {
+  width: 100%;
+  padding: 13px 0;
+  margin: 10px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid var(--gray);
+  outline: none;
+  background: transparent;
+}
+.inpute-field:focus {
+  border-color: var(--primary);
+}
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: var(--gray);
+  color: var(--black);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 10%;
+}
+.submit-btn:hover {
+  background: var(--primary);
+  color: var(--pure);
+}
+.check-box {
+  margin: 30px 10px 30px 0;
+}
+span {
+  color: var(--pure-gray);
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+#register {
+  left: 30px;
+}
+#register-btn {
+  background: var(--primary);
+  color: var(--pure);
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 12px;
+  margin-top: 100%;
+}
+
+p a {
+  color: var(--primary);
+  text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
